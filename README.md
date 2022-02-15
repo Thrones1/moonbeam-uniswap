@@ -1,27 +1,15 @@
-![Moonbeam Banner](uniswap-banner.png)
+# Basic Sample Hardhat Project
 
-# Uniswap V2 on Moonbeam
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
-This repository provides the tools necessary to deploy Uniswap V2 on Moonbeam: either in the Moonbase Alpha TestNet or in a Standalone node.
+Try running some of the following tasks:
 
-**This repository is for demostration purposes only.**
-
-## Getting started
-
-There are three different repositories.
-
-### Uniswap Contracts Moonbeam
-
-A Hardhat setup to deploy all the necessary either to Moonbase Alpha or a Standalone Moonbeam node.
-
-### Uniswap Interface Moonbeam
-
-The simple v2 Uniswap interface modified to work with Moonbase Alpha and a Standalone Moonbeam node.
-
-### Uniswap SDK Moonbeam
-
-Modified version of the Uniswap SDK to add compatibility with Moonbase Alpha and a Standalone Moonbeam node.
-
---
-
-Have fun :)
+```shell
+npx hardhat accounts
+npx hardhat compile
+npx hardhat clean
+npx hardhat test
+npx hardhat node
+node scripts/sample-script.js
+npx hardhat help
+```
